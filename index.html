@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="#"><img src="images/logo.png"></a>
+        </div>
+    <ul id ="menuList">
+        <li class="dropdown active"><a href="#"> Home </a>&nbsp;&nbsp; </li>
+        <li class="dropdown"><a href="#">Listing <i class="fa-solid fa-chevron-down"></i></a>&nbsp;&nbsp;
+          <div class="dropdown-content">
+              <a href="#">View all Listings</a>
+              <a href="#">Listting 1</a>
+              <a href="#">Listting 2</a>
+              <a href="#">Listting 3</a>
+              <a href="#">Listting 4</a>
+              <a href="#">Listting 5</a>
+          </div>
+          </li>
+        <li class="dropdown"><a href="#">Properties <i class="fa-solid fa-chevron-down"></i></a>&nbsp;&nbsp;
+            <div class="dropdown-content">
+                <a href="#">View all Properties</a>
+                <a href="#">Property Details 1</a>
+                <a href="#">Property Details 2</a>
+                <a href="#">Property Details 3</a>
+                <a href="#">Property Details 4</a>
+                <a href="#">Property Details 5</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>&nbsp;&nbsp;
+            <div class="dropdown-content">
+                <a href="#">page 1</a>
+                <a href="#">page 2</a>
+                <a href="#">page 3</a>
+                <a href="#">page 1</a>
+                <a href="#">page 2</a>
+                <a href="#">page 3</a>
+            </div>
+        </li>
+        <li class="dropdown"><a href="#">Blogs <i class="fa-solid fa-chevron-down"></i></a>&nbsp;&nbsp;
+        <div class="dropdown-content">
+                    <a href="#">Blog Default</a>
+                    <a href="#">View all partners</a>
+                    <a href="#">partner 1</a>
+                    <a href="#">partner 2</a>
+                    <a href="#">partner 3</a>
+                </div>
+            </li>
+        <li class="dropdown"><a href="#">Dashboard <i class="fa-solid fa-chevron-down"></i></a>
+        <div class="dropdown-content">
+                        <a href="#">Dashboard</a>
+                        <a href="#">My Properties</a>
+                        <a href="#">My Invoice</a>
+                        <a href="#">My Pavourites</a>
+                        <a href="#">My Profile</a>
+                        <a href="#">Review</a>
+             </div>
+            </li>
+         </ul>
+         <div class="singups">
+            <button><a href="#login">Login</a></button>
+            <button><a href="#Register">Register</a></button>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-bars" id="bars"></i>
+                <i class="fa-solid fa-x" id="cancel"></i>
+            </div>
+    </header>
+
+    <!-------------------HOME START----------------------------->
+    <div class="home">
+        <div class="content">
+        <h1>Welcom to IMH Shelter</h1>
+        <h2>Find Your Dream Home</h2>
+        <p>We are a real estate agency that will help<br>you find
+             the best residence you dream of</p>
+             <i class="fa-solid fa-x" id="cancel"></i>
+       <button class="general-btn"><a href="#">Get Started</a></button>
+      </div>
+    </div>
+
+    <!-------------------HOME END-----------------------------> 
+
+    <!-----------------PAGE-1 START--------------------------->
+    <div class="page-1 page" id="page-1">
+       <span class="page-span">Properties</span>
+       <h1>Recommended For You</h1>
+        <ul>
+            <li ><a href="#">View All</a></li>
+            <li><a href="#"class="active">Appartments</a></li>
+            <li><a href="#">Villa</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">House</a></li>
+            <li><a href="#">Office</a></li>
+        </ul>
+
+        <div class="page-1-container">
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-1.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-2.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-3.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-4.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-5.jpg">
+                    <div class="sale-rent"><p>FOR RENT</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">VILLA</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-6.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-7.jpg">
+                    <div class="sale-rent"><p>FOR RENT</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">APPARTMENT</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-8.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="images/f-9.jpg">
+                    <div class="sale-rent"><p>FOR SALE</p></div>
+                    <div class="heart"><i class="fa-solid fa-heart" id="heart"></i></div>
+                     <p class="type">HOUSE</p>
+                      </div>
+                      <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <div class="price">
+                        <h2><i class="fa-solid fa-naira-sign"></i> <b>10.5million</b></h2>
+                        <a href="#">Buy Property</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button id="view-all-btn"> View All Property</button>
+    </div>
+
+    <!-----------------PAGE-1 END-------------------------->
+
+    
+    <!-----------------PAGE-2 START-------------------------->
+    <div class="page-2 page">
+        <span class="page-span">Top Properties</span>
+        <h1>Best Property Value</h1>
+
+        <div class="page-2-container">
+            <div class="card">
+                    <img src="images/v-1.jpg">
+                    <div class="content">
+                        <h2>Sunset Heights Estate</h2>
+                        <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                        <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                       <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+                       <button class="value-btn">Buy Property</button>
+                 </div> 
+            </div>
+
+            <div class="card">
+                <img src="images/v-2.jpg">
+                <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                   <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+                   <button class="value-btn">Buy Property</button>
+               </div> 
+            </div>
+            <div class="card">
+                <img src="images/v-3.jpg">
+                <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                   <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+                   <button class="value-btn">Buy Property</button>
+             </div> 
+           </div>
+
+           <div class="card">
+            <img src="images/v-4.jpg">
+            <div class="content">
+                <h2>Sunset Heights Estate</h2>
+                <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+               <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+               <button class="value-btn">Buy Property</button>
+           </div> 
+           </div>
+
+            <div class="card">
+                    <img src="images/v-5.jpg">
+                    <div class="content">
+                        <h2>Sunset Heights Estate</h2>
+                        <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                        <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                    <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+                    <button class="value-btn">Buy Property</button>
+                </div>
+            </div> 
+
+
+            <div class="card">
+                <img src="images/v-6.jpg">
+                <div class="content">
+                    <h2>Sunset Heights Estate</h2>
+                    <p><i class="fa-solid fa-location-dot"></i> 1040 Katampe, Katampe Extension, Abuja.</p>
+                    <p><i class="fa-solid fa-bed"></i> 6Beds &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-bath"></i> 3Baths &nbsp;&nbsp;&nbsp; <i class="fa-solid fa-ruler"></i> 720sq ft</p>
+                <button class="value-btn"><i class="fa-solid fa-naira-sign"></i> 25.7million</button>
+                <button class="value-btn">Buy Property</button>
+            </div> 
+            </div>
+            </div>
+            <button id="view-all-btn"> View All Value Property</button>
+
+    </div>
+
+    <!-----------------PAGE-2 END-------------------------->
+
+    <!-----------------PAGE-3 START-------------------------->
+    <div class="page-3 page">
+        <span class="page-span" >OUR SERVICES</span>
+            <h1>What We Do? </h1>
+
+            <div class="page-3-container">
+                <div class="buy">
+                    <div class="svg">
+                        <img src="images/house-key-icon.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Buy A New Home</h2>
+                        <p>Discover your dream home effortlessly. Explore diverse properties and expert guidance for a seamless buying experience.</p>
+                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="Rent">
+                    <div class="svg">
+                        <img src="images/home-loan-icon.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Rent A Home</h2>
+                        <p>Discover your perfect rental effortlessly. Explore a diverse variety of listings tailored precisely to suit your unique lifestyle needs.</p>
+                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="Sale">
+                    <div class="svg">
+                        <img src="images/home-broker-dealer-icon.svg">
+                    </div>
+                    <div class="content">
+                        <h2>Sell A Home</h2>
+                        <p>Sell confidently with expert guidance and effective strategies, showcasing your property's best features for a successful sale.</p>
+                        <a href="#">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+         </div>
+    
+    <!-----------------PAGE-3 END-------------------------->
+   
+    <!-------------------PAGE-4  START---------------------->
+    <div class="page-4 page">
+        <span class="page-span" >OUR TEAMS</span>
+        <h1>Meet Our Agents </h1>
+
+        <div class="container">
+
+            <div class="card">
+                <div class="img"><img src="images/agent 1.jpg"></div>
+                <div class="content">
+                    <h2>Anthony Audu</h2>
+                    <p>Property Manager</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/agent 2.jpg"></div>
+                <div class="content">
+                    <h2>Precious John</h2>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/agent 3.jpg"></div>
+                <div class="content">
+                    <h2>Daniel George</h2>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img"><img src="images/agent 4.jpg"></div>
+                <div class="content">
+                    <h2>Faith Moses</h2>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------PAGE-4 END---------------------->
+
+    <!--------------------REVIEW START------------------>
+    <div class="reviews page" id="reviews">
+        <h1>Customer Reviews</h1>
+        <div class="review-container">
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 2.jpg" alt="Customer 1">
+                </div>
+                <div class="content">
+                    <h3>John Doe</h3>
+                    <p>I recently bought a property through IMH Shelter, and I couldn't be happier with the experience. The agents were very helpful and knowledgeable, and they made the entire process smooth and stress-free. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 4.jpg" alt="Customer 2">
+                </div>
+                <div class="content">
+                    <h3>Jane Smith</h3>
+                    <p>I had a fantastic experience working with IMH Shelter. They helped me find my dream home quickly and efficiently. The agents were very professional and knowledgeable, and they made the entire process enjoyable. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 1.jpg" alt="Customer 3">
+                </div>
+                <div class="content">
+                    <h3>Michael Brown</h3>
+                    <p>I recently sold my property through IMH Shelter, and I couldn't be happier with the outcome. The agents were very professional and knowledgeable, and they helped me get the best price for my property. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 1.jpg" alt="Customer 3">
+                </div>
+                <div class="content">
+                    <h3>Michael Brown</h3>
+                    <p>I recently sold my property through IMH Shelter, and I couldn't be happier with the outcome. The agents were very professional and knowledgeable, and they helped me get the best price for my property. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 1.jpg" alt="Customer 3">
+                </div>
+                <div class="content">
+                    <h3>Michael Brown</h3>
+                    <p>I recently sold my property through IMH Shelter, and I couldn't be happier with the outcome. The agents were very professional and knowledgeable, and they helped me get the best price for my property. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="img-container">
+                    <img src="images/agent 1.jpg" alt="Customer 3">
+                </div>
+                <div class="content">
+                    <h3>Michael Brown</h3>
+                    <p>I recently sold my property through IMH Shelter, and I couldn't be happier with the outcome. The agents were very professional and knowledgeable, and they helped me get the best price for my property. I highly recommend IMH Shelter to anyone looking to buy or sell a property.</p>
+                    <p><i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------REVIEW END----------------------->
+
+
+    <!--------------FOOTER AREA------------------>
+    <footer id="footer page">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-1">
+                    <h5>Contact Us</h5>
+                    <p>IMH Shelter<br>
+                        1040 Katampe, Katampe Extension,<br> Abuja, Nigeria<br>
+                        Phone: +234 803 456 7890<br>
+                        Email: info@imhshelter.com</p>
+                </div>
+                <div class="col-2">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#page-1">Properties</a></li>
+                        <li><a href="#page-2">Top Properties</a></li>
+                        <li><a href="#page-3">Our Services</a></li>
+                        <li><a href="#page-4">Our Teams</a></li>
+                        <li><a href="#page-5">Blogs</a></li>
+                        <li><a href="#page-6">Dashboard</a></li>
+                    </ul>
+                </div>
+               
+                <div class="col-3">
+                    <h5>Follow Us</h5>
+                    <p>Stay connected with us on our <br>social media platforms:</p>
+                    <div class="social-media">
+                       <p> <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></p>
+                        <p><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></p>
+                        <p><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                        <p><a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <p class="copyright">&copy; 2024 IMH Shelter. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+
+<script src="script.js"></script>
+</body>
+</html>
