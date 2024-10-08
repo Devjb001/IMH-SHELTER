@@ -16,6 +16,7 @@ html{
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 img{
@@ -182,19 +183,21 @@ header ul li a{
   }
   .home .content{
     margin-top: 20rem;
+    background-color: red;
+    width: 80%;
   }
   .home .content h1{
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 2rem;
   }
   .home .content h2{
-    font-size: 4rem;
+    font-size: 3.2rem;
     margin-bottom: 1rem;
 
   }
   .home .content p{
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   .general-btn{
