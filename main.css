@@ -652,7 +652,7 @@ header ul li a{
   /*-----------FOOTER START------------*/
   #footer{
     width: 100%;
-    min-height: 50vh;
+    min-height:60vh;
     background-color: #1b1b1b;
    
   }
@@ -664,13 +664,13 @@ header ul li a{
     padding: 5rem;
   }
   #footer h5{
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 1rem 0rem;
     color: #fff;
   }
   #footer p , a{
-    font-size: 1.5rem;
-    color: #b4b4b4;
+    font-size: 2.5rem;
+    color: #525252;
     line-height: 2.3rem;
   }
   #footer  a:hover{
@@ -685,4 +685,10 @@ header ul li a{
     .page{
       width: 100%;
     }
+  }
+  #footer .col-1, .col-2, .col-3{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    color: #3b3b3b;
+    line-height: 2.3rem;
   }
