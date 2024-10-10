@@ -513,8 +513,14 @@ header ul li a{
     align-items: center;
     justify-content:space-around;
     align-items:center ;
+    flex-wrap: wrap;
     gap:5rem;
     margin: 5rem 0rem;
+   }
+   .page-3-container > div{
+    width: 22rem;
+    height: auto;
+    padding: 10px;
    }
    .page-3-container h2{
     font-size: 3rem;
