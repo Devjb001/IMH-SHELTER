@@ -94,6 +94,9 @@ header ul li a{
   header ul li.active{
     background-color:#0d7943;
   }
+ .fa-chevron-down{
+    display: none;
+  }
   
   header button{
     width: 10rem;
@@ -667,15 +670,15 @@ header ul li a{
     align-items:center ;
     justify-content: center;
     gap: 4rem;
-    padding: 5rem;
+    padding:5rem;
   }
   #footer h5{
-    font-size: 4rem;
-    margin: 1rem 0rem;
+    font-size:3rem;
+    margin: 2rem 0rem;
     color: #fff;
   }
   #footer p , a{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #525252;
     line-height: 2.3rem;
   }
@@ -693,8 +696,11 @@ header ul li a{
     }
   }
   #footer .col-1, .col-2, .col-3{
-    margin-top: 2rem;
-    font-size: 2.5rem;
+    margin: 2rem 0;
+    font-size: 2rem;
     color: #3b3b3b;
     line-height: 2.3rem;
+  }
+  .copyright{
+    margin-top: 2rem;
   }
